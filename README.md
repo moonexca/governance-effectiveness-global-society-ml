@@ -1,36 +1,32 @@
 # Governance Effectiveness and Control of Corruption in Global Society (2013-2023)
 
-Academic machine learning project by **Soledad Yash** exploring how governance quality and human development interact across countries from 2013 to 2023.
+There are moments when the official story of a country and the lived conditions of its people no longer move together. Institutions look solid on paper. Indicators suggest order, control, procedure. And yet development stalls, or arrives unevenly, or never quite reaches those who are meant to benefit from it. This project begins in that fracture.
 
-## Overview
+Built as an academic machine learning project by **Soledad Yash**, the work examines how governance quality and human development relate across countries from 2013 to 2023. It uses governance indicators from the **World Governance Indicators** together with the **Human Development Report** to study whether stronger institutional performance actually travels alongside better human outcomes, or whether deeper structural forces continue to shape the distance between the two.
 
-This repository contains a historical academic submission originally developed for the **Machine Learning for Business** module at **CCT College Dublin**. The project combines:
+## What this project does
 
-- governance indicators from the **World Governance Indicators**
-- human development indicators from the **Human Development Report**
-- clustering methods to identify structural country groupings
-- time-series forecasting to examine future HDI trajectories
+The notebook moves through the problem in stages:
 
-The analytical framing connects data science with questions relevant to governance, risk, compliance, institutional performance, and long-term development outcomes.
+- it reshapes and aligns governance and development datasets across country and year
+- it examines the structure of the combined panel through exploratory analysis
+- it applies clustering methods to identify country groupings and structural divergence
+- it uses time-series forecasting to extend HDI trajectories beyond the observed period
 
-## Research Question
+The result is not a claim of final truth. It is a disciplined attempt to read the relationship between institutional form and social outcome without treating either one as self-explanatory.
 
-The central question is whether stronger institutions consistently lead to better human development outcomes, or whether deeper historical, geopolitical, and structural factors continue to shape that relationship.
+## Main analytical components
 
-## Methods
-
-The notebook applies a workflow that includes:
-
-- data reshaping, cleaning, and panel-style merging
+- data cleaning and panel-style merging
 - exploratory data analysis
-- feature scaling and comparative clustering
-- **K-Means**
-- **Agglomerative Clustering**
-- cluster validation using **Silhouette Score** and **Davies-Bouldin Index**
-- governance-development incongruence interpretation
-- **ARIMA / time-series forecasting** for HDI trend analysis
+- feature scaling
+- **K-Means clustering**
+- **Agglomerative clustering**
+- validation with **Silhouette Score** and **Davies-Bouldin Index**
+- interpretation of governance-development incongruence
+- **ARIMA / time-series forecasting** for HDI trends
 
-## Repository Contents
+## Repository contents
 
 - [MachineLearning_SoledadYash.ipynb](./MachineLearning_SoledadYash.ipynb): main notebook
 - [CA1_Report_SoledadYash_GRC_Final.docx](./CA1_Report_SoledadYash_GRC_Final.docx): written report
@@ -56,42 +52,39 @@ The notebook uses Python libraries including:
 
 See [requirements.txt](./requirements.txt) for a lightweight environment list.
 
-## Reproducibility Notes
+## Why it matters
 
-- This repository is published as a **historical academic work**, not as a newly rebuilt production project.
-- The notebook reflects the state of the submission at the time of the assignment, with light repository cleanup for portfolio presentation.
-- Some outputs, formatting artefacts, and notebook execution traces may remain consistent with an academic workflow.
+This project speaks to themes that return often in my work:
 
-## Academic and IP Statement
+- analytics used to read institutions rather than decorate them
+- governance and risk seen through outcomes, not only frameworks
+- public-interest analysis grounded in structure, asymmetry, and historical constraint
 
-This repository contains academic work authored by **Soledad Yash**. It is shared for portfolio, research communication, and professional visibility purposes.
+## Reproducibility notes
 
-- The analytical framing, interpretation, and project assembly are presented as the author's academic work.
-- Source datasets come from external public or institutional data sources and remain subject to their own usage terms.
-- The university or module context is acknowledged, but publication here does **not** imply endorsement by the institution.
-- If any institution-specific material requires removal or adjustment, the repository should be updated accordingly.
+- This repository is shared as a **historical academic work**.
+- The notebook reflects the original assignment-era workflow, with light cleanup for portfolio publication.
+- Some formatting traces and execution artefacts remain consistent with that academic context.
+
+## Academic and IP statement
+
+This repository contains academic work authored by **Soledad Yash** and is shared for portfolio, research communication, and professional visibility.
+
+- The framing, interpretation, and assembly of the project are presented as the author's work.
+- Source datasets remain subject to the terms of their original owners.
+- The academic context is acknowledged for transparency and context only.
 
 See [ACADEMIC_USE_AND_IP.md](./ACADEMIC_USE_AND_IP.md) for the longer statement.
 
-## AI Use Disclosure
+## AI use disclosure
 
-AI-assisted support may have been used in limited ways during the broader research and documentation process, including drafting support, restructuring ideas, or code explanation. Final responsibility for verification, interpretation, submission, and publication remains with **Soledad Yash**.
+AI-assisted support may have been used in limited surrounding tasks such as drafting support, structural editing, or explanation. Final responsibility for validation, interpretation, submission, and publication remains with **Soledad Yash**.
 
-See [AI_USE_DISCLOSURE.md](./AI_USE_DISCLOSURE.md) for a fuller note on boundaries, limitations, and security awareness.
-
-## Portfolio Intent
-
-This project is relevant to roles and themes such as:
-
-- data analytics
-- GRC-adjacent analysis
-- public policy and governance analysis
-- risk and institutional performance
-- socially grounded data storytelling
+See [AI_USE_DISCLOSURE.md](./AI_USE_DISCLOSURE.md) for a fuller note on limitations, boundaries, and security awareness.
 
 ## Author
 
 **Soledad Yash**  
 Dublin, Ireland  
 [LinkedIn](https://www.linkedin.com/in/soledad-yash)  
-[GitHub](https://github.com/asolyash)
+[GitHub](https://github.com/moonexca)
