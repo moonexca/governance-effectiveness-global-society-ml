@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.bak
+*.swp
+*.log
+.DS_Store
+Thumbs.db
+
+# Local editor files
+*.lnk
+.~lock.*
+
+# Large generated or duplicate artifacts that should stay out of future commits
+*.rar
